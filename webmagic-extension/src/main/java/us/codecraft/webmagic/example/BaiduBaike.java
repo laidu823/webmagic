@@ -31,7 +31,7 @@ public class BaiduBaike{
         OOSpider ooSpider = OOSpider.create(Site.me().setSleepTime(0), BaiduBaike.class);
         //single download
         String urlTemplate = "http://baike.baidu.com/search/word?word=%s&pic=1&sug=1&enc=utf8";
-        BaiduBaike baike = ooSpider.<BaiduBaike>get("http://baike.baidu.com/search/word?word=httpclient&pic=1&sug=1&enc=utf8");
+        BaiduBaike baike = ooSpider.get("http://baike.baidu.com/search/word?word=httpclient&pic=1&sug=1&enc=utf8");
         System.out.println(baike);
 
         //multidownload

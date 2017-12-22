@@ -1,4 +1,4 @@
-package us.codecraft.webmagic.downloader.httpclient;
+package us.codecraft.webmagic.downloader;
 
 import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.client.protocol.HttpClientContext;

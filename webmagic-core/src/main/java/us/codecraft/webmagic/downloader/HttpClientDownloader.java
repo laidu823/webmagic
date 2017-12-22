@@ -1,4 +1,4 @@
-package us.codecraft.webmagic.downloader.httpclient;
+package us.codecraft.webmagic.downloader;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.http.HttpResponse;
@@ -12,7 +12,6 @@ import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Request;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Task;
-import us.codecraft.webmagic.downloader.AbstractDownloader;
 import us.codecraft.webmagic.proxy.Proxy;
 import us.codecraft.webmagic.proxy.ProxyProvider;
 import us.codecraft.webmagic.selector.PlainText;
